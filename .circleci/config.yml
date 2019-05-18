@@ -8,7 +8,4 @@ jobs:
       - checkout
       - run:
           name: install-dependencies
-          command: npm install
-      - run:
-          name: tests
-          command: npm test      
+          command: npm install 
