@@ -45,7 +45,7 @@ exports.login = (req, res) => {
                         expiresIn : '7d'
                     })
                     // end of define token of uses
-                    res.status(200).json({
+                    return res.status(200).json({
                         message: 'login succes!',
                         success: true,
                         token: enToken
